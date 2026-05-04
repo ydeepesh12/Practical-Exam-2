@@ -24,7 +24,7 @@ btn.addEventListener('click', function () {
         btn.textContent = ' Liked!';
         btn.classList.add('liked');
     } else {
-        btn.textContent = '♡ Like';
+        btn.textContent = 'Like';
         btn.classList.remove('liked');
     }
 
