@@ -31,8 +31,8 @@ btn.addEventListener('click', function () {
     counter.textContent = count;
 
     const msg = liked
-        ? `Aapne like kiya Total likes: ${count}`
-        : `Like hata diya. Total likes: ${count}`;
+         `Aapne like kiya Total likes: +{count}`
+         `Like hata diya. Total likes:+{count}`;
 
 
     alert(msg);
