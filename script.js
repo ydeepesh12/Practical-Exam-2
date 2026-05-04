@@ -1,6 +1,6 @@
 const btn = document.createElement('button');
 btn.id = 'likeBtn';
-btn.textContent = '♡ Like';
+btn.textContent = 'Like';
 document.body.appendChild(btn);
 
 
@@ -18,7 +18,7 @@ let liked = false;
 
 btn.addEventListener('click', function () {
     liked = !liked;
-    count = liked ? count + 1 : count - 1;
+    count = liked  count + 1 : count - 1;
 
     if (liked) {
         btn.textContent = ' Liked!';
@@ -31,7 +31,7 @@ btn.addEventListener('click', function () {
     counter.textContent = count;
 
     const msg = liked
-        ? `Aapne like kiya! Total likes: ${count}`
+        ? `Aapne like kiya Total likes: ${count}`
         : `Like hata diya. Total likes: ${count}`;
 
 
